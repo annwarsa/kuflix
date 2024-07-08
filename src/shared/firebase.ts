@@ -12,13 +12,13 @@ import { getFirestore } from "firebase/firestore";
 // });
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBkedJtDg6BjLpF06MD6_dWJQ9M1RWOoBE",
-  authDomain: "fir-flix-4ac4c.firebaseapp.com",
-  projectId: "fir-flix-4ac4c",
-  storageBucket: "fir-flix-4ac4c.appspot.com",
-  messagingSenderId: "48497898427",
-  appId: "1:48497898427:web:7757b80a485e6288fcca9e",
-  measurementId: "G-8VTFFL7BN6"
+  apiKey: process.env.API_KEY,
+  authDomain: process.env.AUTH_DOMAIN,
+  projectId: process.env.PROJECT_ID,
+  storageBucket: process.env.STORAGE_BUCKET,
+  messagingSenderId: process.env.MESSAGING_SENDER_ID,
+  appId: process.env.APP_ID,
+  measurementId: process.env.MEASUREMENT_ID
 };
 
 // const firebaseConfig = {
